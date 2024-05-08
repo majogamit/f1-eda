@@ -1,12 +1,36 @@
-# F1-EDA
-Formula 1 - Exploratory Data Analysis
+# Exploratory Data Analysis on Formula 1
 
-Seems like the data for number of races won by each driver is erroneous and not dated since Michael Schumacher is no longer the record holder for most number of races won and has 91 grand prix wins as opposed to what is in the dataset.
+This repository contains an exploratory data analysis (EDA) on Formula 1 data. The analysis explores various aspects of Formula 1 including circuits, drivers, and constructors. Below is a summary of the analyses conducted:
 
-The notebook is large and may not load on github
+## Analysis of Circuits
 
-Use https://nbviewer.jupyter.org/github/SparshBohra/F1-EDA/blob/master/F1-EDA.ipynb.
+- Visualising circuits around the world on a world map using clusters.
+- Determining the top 10 countries by the number of circuits.
+- Identifying the circuits that have hosted the most Grand Prix races.
+- Analyzing the climate zones of the circuits.
 
-The 2 datasets have been taken from kaggle:
-1) https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020/code?datasetId=468218&sortBy=voteCount
-2) https://www.kaggle.com/cjgdev/formula-1-race-data-19502017/code?datasetId=5571&sortBy=voteCount
+## Analysis of Drivers
+
+- Calculating the average points scored by drivers after 2010.
+- Examining driver status and their fastest laps.
+- Identifying drivers with the best pitstop timings.
+
+## Analysis of Constructors
+
+- Determining the nationality to which most constructors belong.
+- Identifying constructors that have won the most number of races.
+
+## Additional Information
+
+### Libraries Used:
+
+- `numpy`: For numerical computations.
+- `pandas`: For data manipulation and analysis.
+- `plotly`: For interactive and visually appealing plots.
+- `folium`: For visualizing geospatial data.
+- `seaborn` and `matplotlib.pyplot`: For data visualization.
+
+--- 
+## Data Source:
+1. https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020/code?datasetId=468218&sortBy=voteCount
+2. https://www.kaggle.com/cjgdev/formula-1-race-data-19502017/code?datasetId=5571&sortBy=voteCount
